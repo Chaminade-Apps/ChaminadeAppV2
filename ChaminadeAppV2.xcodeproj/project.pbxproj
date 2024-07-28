@@ -1,0 +1,1193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0405AF7B2C18DC82004A0BA4 /* BellScheduleInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405AF7A2C18DC82004A0BA4 /* BellScheduleInputView.swift */; };
+		042A9A592C4806AB007A9179 /* DeveloperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A9A582C4806AB007A9179 /* DeveloperView.swift */; };
+		042A9A5B2C481074007A9179 /* SocialLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A9A5A2C481074007A9179 /* SocialLinksView.swift */; };
+		042AE10B2BFBCC6D00E36BF9 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AE10A2BFBCC6D00E36BF9 /* CalendarView.swift */; };
+		042AE10D2BFCC8D800E36BF9 /* ResourcesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AE10C2BFCC8D800E36BF9 /* ResourcesView.swift */; };
+		042AE10F2BFCD50B00E36BF9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AE10E2BFCD50B00E36BF9 /* SettingsView.swift */; };
+		042AE1132BFCDF6C00E36BF9 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AE1122BFCDF6C00E36BF9 /* SafariView.swift */; };
+		042AE1152BFCE6EA00E36BF9 /* SafariLinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042AE1142BFCE6EA00E36BF9 /* SafariLinkButton.swift */; };
+		042B013A2C077BE800C512B9 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B01382C077BE000C512B9 /* Alert.swift */; };
+		042B013B2C077BEE00C512B9 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B01392C077BE000C512B9 /* APError.swift */; };
+		042B01412C078E9600C512B9 /* EventCalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B013C2C078E9600C512B9 /* EventCalModel.swift */; };
+		042B01422C078E9600C512B9 /* GetCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B013D2C078E9600C512B9 /* GetCal.swift */; };
+		042B01432C078E9600C512B9 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B013E2C078E9600C512B9 /* RowView.swift */; };
+		042B01442C078E9600C512B9 /* DateFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B013F2C078E9600C512B9 /* DateFormatterExtensions.swift */; };
+		042B01452C078E9600C512B9 /* EventCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B01402C078E9600C512B9 /* EventCal.swift */; };
+		042B01472C0E010D00C512B9 /* LunchMenuPDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B01462C0E010D00C512B9 /* LunchMenuPDFView.swift */; };
+		04452E6F2C29C4D900B0781A /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04452E6E2C29C4D900B0781A /* TodayView.swift */; };
+		045C08402C0F8EF4001C62F9 /* BellScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C083D2C0F8EBB001C62F9 /* BellScheduleView.swift */; };
+		045C08412C0F8EF8001C62F9 /* PeriodFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C083F2C0F8ED6001C62F9 /* PeriodFunctions.swift */; };
+		0493DDED2C3C56BC00807079 /* ScheduleStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493DDEC2C3C56BB00807079 /* ScheduleStorage.swift */; };
+		04A3A4C42BFB957C007BB31C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3A4C32BFB957C007BB31C /* HomeView.swift */; };
+		04A46EF32C3D72A60096EACC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405AF822C1D3A78004A0BA4 /* WidgetKit.framework */; };
+		04A46EF42C3D72A60096EACC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0405AF842C1D3A78004A0BA4 /* SwiftUI.framework */; };
+		04A46EF72C3D72A60096EACC /* BellScheduleWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A46EF62C3D72A60096EACC /* BellScheduleWidgetBundle.swift */; };
+		04A46EFB2C3D72A60096EACC /* BellScheduleWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A46EFA2C3D72A60096EACC /* BellScheduleWidget.swift */; };
+		04A46EFD2C3D72A70096EACC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A46EFC2C3D72A70096EACC /* Assets.xcassets */; };
+		04A46F012C3D72A70096EACC /* BellScheduleWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04A46EF22C3D72A60096EACC /* BellScheduleWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04A46F342C3DC4400096EACC /* PeriodFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045C083F2C0F8ED6001C62F9 /* PeriodFunctions.swift */; };
+		04A46F352C3DC4570096EACC /* GetCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B013D2C078E9600C512B9 /* GetCal.swift */; };
+		04A46F362C3DC45F0096EACC /* EventCalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B013C2C078E9600C512B9 /* EventCalModel.swift */; };
+		04A46F372C3DC4650096EACC /* EventCal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B01402C078E9600C512B9 /* EventCal.swift */; };
+		04A46F382C3DC46B0096EACC /* DateFormatterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B013F2C078E9600C512B9 /* DateFormatterExtensions.swift */; };
+		04A470AB2C4063690096EACC /* TiemposHeadline-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4708B2C4063690096EACC /* TiemposHeadline-Semibold.otf */; };
+		04A470AC2C4063690096EACC /* TiemposText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4708C2C4063690096EACC /* TiemposText-Medium.otf */; };
+		04A470AD2C4063690096EACC /* TiemposHeadline-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4708D2C4063690096EACC /* TiemposHeadline-SemiboldItalic.otf */; };
+		04A470AE2C4063690096EACC /* TiemposFine-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4708E2C4063690096EACC /* TiemposFine-MediumItalic.otf */; };
+		04A470AF2C4063690096EACC /* TiemposFine-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4708F2C4063690096EACC /* TiemposFine-BlackItalic.otf */; };
+		04A470B02C4063690096EACC /* TiemposFine-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470902C4063690096EACC /* TiemposFine-Medium.otf */; };
+		04A470B12C4063690096EACC /* TiemposFine-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470912C4063690096EACC /* TiemposFine-RegularItalic.otf */; };
+		04A470B22C4063690096EACC /* TiemposText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470922C4063690096EACC /* TiemposText-SemiboldItalic.otf */; };
+		04A470B32C4063690096EACC /* TiemposFine-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470932C4063690096EACC /* TiemposFine-Semibold.otf */; };
+		04A470B42C4063690096EACC /* TiemposHeadline-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470942C4063690096EACC /* TiemposHeadline-Black.otf */; };
+		04A470B52C4063690096EACC /* TiemposText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470952C4063690096EACC /* TiemposText-Bold.otf */; };
+		04A470B62C4063690096EACC /* TiemposFine-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470962C4063690096EACC /* TiemposFine-LightItalic.otf */; };
+		04A470B72C4063690096EACC /* TiemposFine-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470972C4063690096EACC /* TiemposFine-Bold.otf */; };
+		04A470B82C4063690096EACC /* TiemposFine-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470982C4063690096EACC /* TiemposFine-SemiboldItalic.otf */; };
+		04A470B92C4063690096EACC /* TiemposText-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470992C4063690096EACC /* TiemposText-MediumItalic.otf */; };
+		04A470BA2C4063690096EACC /* TiemposHeadline-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4709A2C4063690096EACC /* TiemposHeadline-RegularItalic.otf */; };
+		04A470BB2C4063690096EACC /* TiemposFine-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4709B2C4063690096EACC /* TiemposFine-Light.otf */; };
+		04A470BC2C4063690096EACC /* TiemposHeadline-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4709C2C4063690096EACC /* TiemposHeadline-MediumItalic.otf */; };
+		04A470BD2C4063690096EACC /* TiemposHeadline-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4709D2C4063690096EACC /* TiemposHeadline-LightItalic.otf */; };
+		04A470BE2C4063690096EACC /* TiemposText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4709E2C4063690096EACC /* TiemposText-Regular.otf */; };
+		04A470BF2C4063690096EACC /* TiemposFine-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4709F2C4063690096EACC /* TiemposFine-BoldItalic.otf */; };
+		04A470C02C4063690096EACC /* TiemposFine-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470A02C4063690096EACC /* TiemposFine-Black.otf */; };
+		04A470C12C4063690096EACC /* TiemposHeadline-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470A12C4063690096EACC /* TiemposHeadline-Bold.otf */; };
+		04A470C22C4063690096EACC /* TiemposText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470A22C4063690096EACC /* TiemposText-Semibold.otf */; };
+		04A470C32C4063690096EACC /* TiemposHeadline-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470A32C4063690096EACC /* TiemposHeadline-Light.otf */; };
+		04A470C42C4063690096EACC /* TiemposHeadline-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470A42C4063690096EACC /* TiemposHeadline-BoldItalic.otf */; };
+		04A470C52C4063690096EACC /* TiemposFine-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470A52C4063690096EACC /* TiemposFine-Regular.otf */; };
+		04A470C62C4063690096EACC /* TiemposText-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470A62C4063690096EACC /* TiemposText-BoldItalic.otf */; };
+		04A470C72C4063690096EACC /* TiemposHeadline-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470A72C4063690096EACC /* TiemposHeadline-Regular.otf */; };
+		04A470C82C4063690096EACC /* TiemposHeadline-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470A82C4063690096EACC /* TiemposHeadline-BlackItalic.otf */; };
+		04A470C92C4063690096EACC /* TiemposText-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470A92C4063690096EACC /* TiemposText-RegularItalic.otf */; };
+		04A470CA2C4063690096EACC /* TiemposHeadline-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470AA2C4063690096EACC /* TiemposHeadline-Medium.otf */; };
+		04A471202C40639C0096EACC /* GT-America-Extended-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470CC2C40639C0096EACC /* GT-America-Extended-Black.otf */; };
+		04A471212C40639C0096EACC /* GT-America-Standard-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470CD2C40639C0096EACC /* GT-America-Standard-Thin.otf */; };
+		04A471222C40639C0096EACC /* GT-America-Extended-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470CE2C40639C0096EACC /* GT-America-Extended-Regular.otf */; };
+		04A471232C40639C0096EACC /* GT-America-Expanded-Medium-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470CF2C40639C0096EACC /* GT-America-Expanded-Medium-Italic.otf */; };
+		04A471242C40639C0096EACC /* GT-America-Expanded-Ultra-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470D02C40639C0096EACC /* GT-America-Expanded-Ultra-Light-Italic.otf */; };
+		04A471252C40639C0096EACC /* GT-America-Compressed-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470D12C40639C0096EACC /* GT-America-Compressed-Light-Italic.otf */; };
+		04A471262C40639C0096EACC /* GT-America-Condensed-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470D22C40639C0096EACC /* GT-America-Condensed-Bold.otf */; };
+		04A471272C40639C0096EACC /* GT-America-Compressed-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470D32C40639C0096EACC /* GT-America-Compressed-Bold.otf */; };
+		04A471282C40639C0096EACC /* GT-America-Compressed-Bold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470D42C40639C0096EACC /* GT-America-Compressed-Bold-Italic.otf */; };
+		04A471292C40639C0096EACC /* GT-America-Condensed-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470D52C40639C0096EACC /* GT-America-Condensed-Thin.otf */; };
+		04A4712A2C40639C0096EACC /* GT-America-Compressed-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470D62C40639C0096EACC /* GT-America-Compressed-Thin.otf */; };
+		04A4712B2C40639C0096EACC /* GT-America-Condensed-Thin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470D72C40639C0096EACC /* GT-America-Condensed-Thin-Italic.otf */; };
+		04A4712C2C40639C0096EACC /* GT-America-Extended-Black-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470D82C40639C0096EACC /* GT-America-Extended-Black-Italic.otf */; };
+		04A4712D2C40639C0096EACC /* GT-America-Mono-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470D92C40639C0096EACC /* GT-America-Mono-Light-Italic.otf */; };
+		04A4712E2C40639C0096EACC /* GT-America-Compressed-Regular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470DA2C40639C0096EACC /* GT-America-Compressed-Regular-Italic.otf */; };
+		04A4712F2C40639C0096EACC /* GT-America-Expanded-Black-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470DB2C40639C0096EACC /* GT-America-Expanded-Black-Italic.otf */; };
+		04A471302C40639C0096EACC /* GT-America-Mono-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470DC2C40639C0096EACC /* GT-America-Mono-Regular.otf */; };
+		04A471312C40639C0096EACC /* GT-America-Compressed-Ultra-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470DD2C40639C0096EACC /* GT-America-Compressed-Ultra-Light-Italic.otf */; };
+		04A471322C40639D0096EACC /* GT-America-Mono-Thin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470DE2C40639C0096EACC /* GT-America-Mono-Thin-Italic.otf */; };
+		04A471332C40639D0096EACC /* GT-America-Mono-Medium-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470DF2C40639C0096EACC /* GT-America-Mono-Medium-Italic.otf */; };
+		04A471342C40639D0096EACC /* GT-America-Standard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470E02C40639C0096EACC /* GT-America-Standard-Bold.otf */; };
+		04A471352C40639D0096EACC /* GT-America-Extended-Thin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470E12C40639C0096EACC /* GT-America-Extended-Thin-Italic.otf */; };
+		04A471362C40639D0096EACC /* GT-America-Expanded-Bold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470E22C40639C0096EACC /* GT-America-Expanded-Bold-Italic.otf */; };
+		04A471372C40639D0096EACC /* GT-America-Condensed-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470E32C40639C0096EACC /* GT-America-Condensed-Medium.otf */; };
+		04A471382C40639D0096EACC /* GT-America-Mono-Bold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470E42C40639C0096EACC /* GT-America-Mono-Bold-Italic.otf */; };
+		04A471392C40639D0096EACC /* GT-America-Condensed-Black-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470E52C40639C0096EACC /* GT-America-Condensed-Black-Italic.otf */; };
+		04A4713A2C40639D0096EACC /* GT-America-Compressed-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470E62C40639C0096EACC /* GT-America-Compressed-Light.otf */; };
+		04A4713B2C40639D0096EACC /* GT-America-Expanded-Thin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470E72C40639C0096EACC /* GT-America-Expanded-Thin-Italic.otf */; };
+		04A4713C2C40639D0096EACC /* GT-America-Extended-Bold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470E82C40639C0096EACC /* GT-America-Extended-Bold-Italic.otf */; };
+		04A4713D2C40639D0096EACC /* GT-America-Condensed-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470E92C40639C0096EACC /* GT-America-Condensed-Light.otf */; };
+		04A4713E2C40639D0096EACC /* GT-America-Mono-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470EA2C40639C0096EACC /* GT-America-Mono-Black.otf */; };
+		04A4713F2C40639D0096EACC /* GT-America-Standard-Ultra-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470EB2C40639C0096EACC /* GT-America-Standard-Ultra-Light.otf */; };
+		04A471402C40639D0096EACC /* GT-America-Condensed-Bold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470EC2C40639C0096EACC /* GT-America-Condensed-Bold-Italic.otf */; };
+		04A471412C40639D0096EACC /* GT-America-Extended-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470ED2C40639C0096EACC /* GT-America-Extended-Bold.otf */; };
+		04A471422C40639D0096EACC /* GT-America-Standard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470EE2C40639C0096EACC /* GT-America-Standard-Light.otf */; };
+		04A471432C40639D0096EACC /* GT-America-Expanded-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470EF2C40639C0096EACC /* GT-America-Expanded-Black.otf */; };
+		04A471442C40639D0096EACC /* GT-America-Extended-Medium-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470F02C40639C0096EACC /* GT-America-Extended-Medium-Italic.otf */; };
+		04A471452C40639D0096EACC /* GT-America-Extended-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470F12C40639C0096EACC /* GT-America-Extended-Thin.otf */; };
+		04A471462C40639D0096EACC /* GT-America-Compressed-Medium-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470F22C40639C0096EACC /* GT-America-Compressed-Medium-Italic.otf */; };
+		04A471472C40639D0096EACC /* GT-America-Compressed-Thin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470F32C40639C0096EACC /* GT-America-Compressed-Thin-Italic.otf */; };
+		04A471482C40639D0096EACC /* GT-America-Condensed-Ultra-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470F42C40639C0096EACC /* GT-America-Condensed-Ultra-Light-Italic.otf */; };
+		04A471492C40639D0096EACC /* GT-America-Standard-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470F52C40639C0096EACC /* GT-America-Standard-Light-Italic.otf */; };
+		04A4714A2C40639D0096EACC /* GT-America-Mono-Ultra-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470F62C40639C0096EACC /* GT-America-Mono-Ultra-Light-Italic.otf */; };
+		04A4714B2C40639D0096EACC /* GT-America-Condensed-Medium-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470F72C40639C0096EACC /* GT-America-Condensed-Medium-Italic.otf */; };
+		04A4714C2C40639D0096EACC /* GT-America-Condensed-Regular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470F82C40639C0096EACC /* GT-America-Condensed-Regular-Italic.otf */; };
+		04A4714D2C40639D0096EACC /* GT-America-Expanded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470F92C40639C0096EACC /* GT-America-Expanded-Medium.otf */; };
+		04A4714E2C40639D0096EACC /* GT-America-Mono-Regular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470FA2C40639C0096EACC /* GT-America-Mono-Regular-Italic.otf */; };
+		04A4714F2C40639D0096EACC /* GT-America-Compressed-Black-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470FB2C40639C0096EACC /* GT-America-Compressed-Black-Italic.otf */; };
+		04A471502C40639D0096EACC /* GT-America-Extended-Ultra-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470FC2C40639C0096EACC /* GT-America-Extended-Ultra-Light.otf */; };
+		04A471512C40639D0096EACC /* GT-America-Mono-Ultra-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470FD2C40639C0096EACC /* GT-America-Mono-Ultra-Light.otf */; };
+		04A471522C40639D0096EACC /* GT-America-Compressed-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470FE2C40639C0096EACC /* GT-America-Compressed-Regular.otf */; };
+		04A471532C40639D0096EACC /* GT-America-Expanded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A470FF2C40639C0096EACC /* GT-America-Expanded-Bold.otf */; };
+		04A471542C40639D0096EACC /* GT-America-Standard-Bold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471002C40639C0096EACC /* GT-America-Standard-Bold-Italic.otf */; };
+		04A471552C40639D0096EACC /* GT-America-Condensed-Ultra-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471012C40639C0096EACC /* GT-America-Condensed-Ultra-Light.otf */; };
+		04A471562C40639D0096EACC /* GT-America-Compressed-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471022C40639C0096EACC /* GT-America-Compressed-Black.otf */; };
+		04A471572C40639D0096EACC /* GT-America-Mono-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471032C40639C0096EACC /* GT-America-Mono-Medium.otf */; };
+		04A471582C40639D0096EACC /* GT-America-Expanded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471042C40639C0096EACC /* GT-America-Expanded-Regular.otf */; };
+		04A471592C40639D0096EACC /* GT-America-Condensed-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471052C40639C0096EACC /* GT-America-Condensed-Black.otf */; };
+		04A4715A2C40639D0096EACC /* GT-America-Compressed-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471062C40639C0096EACC /* GT-America-Compressed-Medium.otf */; };
+		04A4715B2C40639D0096EACC /* GT-America-Expanded-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471072C40639C0096EACC /* GT-America-Expanded-Thin.otf */; };
+		04A4715C2C40639D0096EACC /* GT-America-Mono-Black-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471082C40639C0096EACC /* GT-America-Mono-Black-Italic.otf */; };
+		04A4715D2C40639D0096EACC /* GT-America-Extended-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471092C40639C0096EACC /* GT-America-Extended-Medium.otf */; };
+		04A4715E2C40639D0096EACC /* GT-America-Extended-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4710A2C40639C0096EACC /* GT-America-Extended-Light-Italic.otf */; };
+		04A4715F2C40639D0096EACC /* GT-America-Condensed-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4710B2C40639C0096EACC /* GT-America-Condensed-Regular.otf */; };
+		04A471602C40639D0096EACC /* GT-America-Expanded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4710C2C40639C0096EACC /* GT-America-Expanded-Light.otf */; };
+		04A471612C40639D0096EACC /* GT-America-Standard-Medium-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4710D2C40639C0096EACC /* GT-America-Standard-Medium-Italic.otf */; };
+		04A471622C40639D0096EACC /* GT-America-Mono-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4710E2C40639C0096EACC /* GT-America-Mono-Light.otf */; };
+		04A471632C40639D0096EACC /* GT-America-Expanded-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4710F2C40639C0096EACC /* GT-America-Expanded-Light-Italic.otf */; };
+		04A471642C40639D0096EACC /* GT-America-Standard-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471102C40639C0096EACC /* GT-America-Standard-Black.otf */; };
+		04A471652C40639D0096EACC /* GT-America-Extended-Ultra-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471112C40639C0096EACC /* GT-America-Extended-Ultra-Light-Italic.otf */; };
+		04A471662C40639D0096EACC /* GT-America-Mono-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471122C40639C0096EACC /* GT-America-Mono-Bold.otf */; };
+		04A471672C40639D0096EACC /* GT-America-Condensed-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471132C40639C0096EACC /* GT-America-Condensed-Light-Italic.otf */; };
+		04A471682C40639D0096EACC /* GT-America-Standard-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471142C40639C0096EACC /* GT-America-Standard-Regular.otf */; };
+		04A471692C40639D0096EACC /* GT-America-Extended-Regular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471152C40639C0096EACC /* GT-America-Extended-Regular-Italic.otf */; };
+		04A4716A2C40639D0096EACC /* GT-America-Compressed-Ultra-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471162C40639C0096EACC /* GT-America-Compressed-Ultra-Light.otf */; };
+		04A4716B2C40639D0096EACC /* GT-America-Expanded-Regular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471172C40639C0096EACC /* GT-America-Expanded-Regular-Italic.otf */; };
+		04A4716C2C40639D0096EACC /* GT-America-Extended-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471182C40639C0096EACC /* GT-America-Extended-Light.otf */; };
+		04A4716D2C40639D0096EACC /* GT-America-Standard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A471192C40639C0096EACC /* GT-America-Standard-Medium.otf */; };
+		04A4716E2C40639D0096EACC /* GT-America-Standard-Black-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4711A2C40639C0096EACC /* GT-America-Standard-Black-Italic.otf */; };
+		04A4716F2C40639D0096EACC /* GT-America-Standard-Regular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4711B2C40639C0096EACC /* GT-America-Standard-Regular-Italic.otf */; };
+		04A471702C40639D0096EACC /* GT-America-Standard-Ultra-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4711C2C40639C0096EACC /* GT-America-Standard-Ultra-Light-Italic.otf */; };
+		04A471712C40639D0096EACC /* GT-America-Standard-Thin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4711D2C40639C0096EACC /* GT-America-Standard-Thin-Italic.otf */; };
+		04A471722C40639D0096EACC /* GT-America-Mono-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4711E2C40639C0096EACC /* GT-America-Mono-Thin.otf */; };
+		04A471732C40639D0096EACC /* GT-America-Expanded-Ultra-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04A4711F2C40639C0096EACC /* GT-America-Expanded-Ultra-Light.otf */; };
+		04DBC1FD2BC4702600AD029D /* ChaminadeAppV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBC1FC2BC4702600AD029D /* ChaminadeAppV2App.swift */; };
+		04DBC1FF2BC4702600AD029D /* ContentTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DBC1FE2BC4702600AD029D /* ContentTabView.swift */; };
+		04DBC2032BC4702700AD029D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DBC2022BC4702700AD029D /* Assets.xcassets */; };
+		04DBC2062BC4702700AD029D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DBC2052BC4702700AD029D /* Preview Assets.xcassets */; };
+		04FAE9E32C46F9A8004C253A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAE9E22C46F9A8004C253A /* SplashView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A46EFF2C3D72A70096EACC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DBC1F12BC4702600AD029D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A46EF12C3D72A60096EACC;
+			remoteInfo = BellScheduleWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0405AF982C1D3A79004A0BA4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04A46F012C3D72A70096EACC /* BellScheduleWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0405AF7A2C18DC82004A0BA4 /* BellScheduleInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellScheduleInputView.swift; sourceTree = "<group>"; };
+		0405AF822C1D3A78004A0BA4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0405AF842C1D3A78004A0BA4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		042A9A582C4806AB007A9179 /* DeveloperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperView.swift; sourceTree = "<group>"; };
+		042A9A5A2C481074007A9179 /* SocialLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLinksView.swift; sourceTree = "<group>"; };
+		042AE10A2BFBCC6D00E36BF9 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		042AE10C2BFCC8D800E36BF9 /* ResourcesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesView.swift; sourceTree = "<group>"; };
+		042AE10E2BFCD50B00E36BF9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		042AE1122BFCDF6C00E36BF9 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		042AE1142BFCE6EA00E36BF9 /* SafariLinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariLinkButton.swift; sourceTree = "<group>"; };
+		042B01382C077BE000C512B9 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		042B01392C077BE000C512B9 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		042B013C2C078E9600C512B9 /* EventCalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventCalModel.swift; path = ../../../GoogleCalTests/GoogleCalTests/EventCalModel.swift; sourceTree = "<group>"; };
+		042B013D2C078E9600C512B9 /* GetCal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetCal.swift; path = ../../../GoogleCalTests/GoogleCalTests/GetCal.swift; sourceTree = "<group>"; };
+		042B013E2C078E9600C512B9 /* RowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RowView.swift; path = ../../../GoogleCalTests/GoogleCalTests/RowView.swift; sourceTree = "<group>"; };
+		042B013F2C078E9600C512B9 /* DateFormatterExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateFormatterExtensions.swift; path = ../../../GoogleCalTests/GoogleCalTests/DateFormatterExtensions.swift; sourceTree = "<group>"; };
+		042B01402C078E9600C512B9 /* EventCal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventCal.swift; path = ../../../GoogleCalTests/GoogleCalTests/EventCal.swift; sourceTree = "<group>"; };
+		042B01462C0E010D00C512B9 /* LunchMenuPDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchMenuPDFView.swift; sourceTree = "<group>"; };
+		04452E6E2C29C4D900B0781A /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		045C083D2C0F8EBB001C62F9 /* BellScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellScheduleView.swift; sourceTree = "<group>"; };
+		045C083F2C0F8ED6001C62F9 /* PeriodFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodFunctions.swift; sourceTree = "<group>"; };
+		0471B4BA2C46B2E400A90216 /* BellScheduleWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BellScheduleWidgetExtension.entitlements; sourceTree = "<group>"; };
+		0493DDEC2C3C56BB00807079 /* ScheduleStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleStorage.swift; sourceTree = "<group>"; };
+		04A3A4C32BFB957C007BB31C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		04A46EF22C3D72A60096EACC /* BellScheduleWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BellScheduleWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A46EF62C3D72A60096EACC /* BellScheduleWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellScheduleWidgetBundle.swift; sourceTree = "<group>"; };
+		04A46EFA2C3D72A60096EACC /* BellScheduleWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellScheduleWidget.swift; sourceTree = "<group>"; };
+		04A46EFC2C3D72A70096EACC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A46EFE2C3D72A70096EACC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A46F062C3D8B8A0096EACC /* ChaminadeAppV2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChaminadeAppV2.entitlements; sourceTree = "<group>"; };
+		04A4708B2C4063690096EACC /* TiemposHeadline-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Semibold.otf"; sourceTree = "<group>"; };
+		04A4708C2C4063690096EACC /* TiemposText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposText-Medium.otf"; sourceTree = "<group>"; };
+		04A4708D2C4063690096EACC /* TiemposHeadline-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		04A4708E2C4063690096EACC /* TiemposFine-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposFine-MediumItalic.otf"; sourceTree = "<group>"; };
+		04A4708F2C4063690096EACC /* TiemposFine-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposFine-BlackItalic.otf"; sourceTree = "<group>"; };
+		04A470902C4063690096EACC /* TiemposFine-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposFine-Medium.otf"; sourceTree = "<group>"; };
+		04A470912C4063690096EACC /* TiemposFine-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposFine-RegularItalic.otf"; sourceTree = "<group>"; };
+		04A470922C4063690096EACC /* TiemposText-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposText-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		04A470932C4063690096EACC /* TiemposFine-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposFine-Semibold.otf"; sourceTree = "<group>"; };
+		04A470942C4063690096EACC /* TiemposHeadline-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Black.otf"; sourceTree = "<group>"; };
+		04A470952C4063690096EACC /* TiemposText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposText-Bold.otf"; sourceTree = "<group>"; };
+		04A470962C4063690096EACC /* TiemposFine-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposFine-LightItalic.otf"; sourceTree = "<group>"; };
+		04A470972C4063690096EACC /* TiemposFine-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposFine-Bold.otf"; sourceTree = "<group>"; };
+		04A470982C4063690096EACC /* TiemposFine-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposFine-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		04A470992C4063690096EACC /* TiemposText-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposText-MediumItalic.otf"; sourceTree = "<group>"; };
+		04A4709A2C4063690096EACC /* TiemposHeadline-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-RegularItalic.otf"; sourceTree = "<group>"; };
+		04A4709B2C4063690096EACC /* TiemposFine-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposFine-Light.otf"; sourceTree = "<group>"; };
+		04A4709C2C4063690096EACC /* TiemposHeadline-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-MediumItalic.otf"; sourceTree = "<group>"; };
+		04A4709D2C4063690096EACC /* TiemposHeadline-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-LightItalic.otf"; sourceTree = "<group>"; };
+		04A4709E2C4063690096EACC /* TiemposText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposText-Regular.otf"; sourceTree = "<group>"; };
+		04A4709F2C4063690096EACC /* TiemposFine-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposFine-BoldItalic.otf"; sourceTree = "<group>"; };
+		04A470A02C4063690096EACC /* TiemposFine-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposFine-Black.otf"; sourceTree = "<group>"; };
+		04A470A12C4063690096EACC /* TiemposHeadline-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Bold.otf"; sourceTree = "<group>"; };
+		04A470A22C4063690096EACC /* TiemposText-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposText-Semibold.otf"; sourceTree = "<group>"; };
+		04A470A32C4063690096EACC /* TiemposHeadline-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Light.otf"; sourceTree = "<group>"; };
+		04A470A42C4063690096EACC /* TiemposHeadline-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-BoldItalic.otf"; sourceTree = "<group>"; };
+		04A470A52C4063690096EACC /* TiemposFine-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposFine-Regular.otf"; sourceTree = "<group>"; };
+		04A470A62C4063690096EACC /* TiemposText-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposText-BoldItalic.otf"; sourceTree = "<group>"; };
+		04A470A72C4063690096EACC /* TiemposHeadline-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Regular.otf"; sourceTree = "<group>"; };
+		04A470A82C4063690096EACC /* TiemposHeadline-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-BlackItalic.otf"; sourceTree = "<group>"; };
+		04A470A92C4063690096EACC /* TiemposText-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposText-RegularItalic.otf"; sourceTree = "<group>"; };
+		04A470AA2C4063690096EACC /* TiemposHeadline-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TiemposHeadline-Medium.otf"; sourceTree = "<group>"; };
+		04A470CC2C40639C0096EACC /* GT-America-Extended-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Black.otf"; sourceTree = "<group>"; };
+		04A470CD2C40639C0096EACC /* GT-America-Standard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Thin.otf"; sourceTree = "<group>"; };
+		04A470CE2C40639C0096EACC /* GT-America-Extended-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Regular.otf"; sourceTree = "<group>"; };
+		04A470CF2C40639C0096EACC /* GT-America-Expanded-Medium-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Medium-Italic.otf"; sourceTree = "<group>"; };
+		04A470D02C40639C0096EACC /* GT-America-Expanded-Ultra-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Ultra-Light-Italic.otf"; sourceTree = "<group>"; };
+		04A470D12C40639C0096EACC /* GT-America-Compressed-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Light-Italic.otf"; sourceTree = "<group>"; };
+		04A470D22C40639C0096EACC /* GT-America-Condensed-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Bold.otf"; sourceTree = "<group>"; };
+		04A470D32C40639C0096EACC /* GT-America-Compressed-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Bold.otf"; sourceTree = "<group>"; };
+		04A470D42C40639C0096EACC /* GT-America-Compressed-Bold-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Bold-Italic.otf"; sourceTree = "<group>"; };
+		04A470D52C40639C0096EACC /* GT-America-Condensed-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Thin.otf"; sourceTree = "<group>"; };
+		04A470D62C40639C0096EACC /* GT-America-Compressed-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Thin.otf"; sourceTree = "<group>"; };
+		04A470D72C40639C0096EACC /* GT-America-Condensed-Thin-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Thin-Italic.otf"; sourceTree = "<group>"; };
+		04A470D82C40639C0096EACC /* GT-America-Extended-Black-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Black-Italic.otf"; sourceTree = "<group>"; };
+		04A470D92C40639C0096EACC /* GT-America-Mono-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Light-Italic.otf"; sourceTree = "<group>"; };
+		04A470DA2C40639C0096EACC /* GT-America-Compressed-Regular-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Regular-Italic.otf"; sourceTree = "<group>"; };
+		04A470DB2C40639C0096EACC /* GT-America-Expanded-Black-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Black-Italic.otf"; sourceTree = "<group>"; };
+		04A470DC2C40639C0096EACC /* GT-America-Mono-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Regular.otf"; sourceTree = "<group>"; };
+		04A470DD2C40639C0096EACC /* GT-America-Compressed-Ultra-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Ultra-Light-Italic.otf"; sourceTree = "<group>"; };
+		04A470DE2C40639C0096EACC /* GT-America-Mono-Thin-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Thin-Italic.otf"; sourceTree = "<group>"; };
+		04A470DF2C40639C0096EACC /* GT-America-Mono-Medium-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Medium-Italic.otf"; sourceTree = "<group>"; };
+		04A470E02C40639C0096EACC /* GT-America-Standard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Bold.otf"; sourceTree = "<group>"; };
+		04A470E12C40639C0096EACC /* GT-America-Extended-Thin-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Thin-Italic.otf"; sourceTree = "<group>"; };
+		04A470E22C40639C0096EACC /* GT-America-Expanded-Bold-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Bold-Italic.otf"; sourceTree = "<group>"; };
+		04A470E32C40639C0096EACC /* GT-America-Condensed-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Medium.otf"; sourceTree = "<group>"; };
+		04A470E42C40639C0096EACC /* GT-America-Mono-Bold-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Bold-Italic.otf"; sourceTree = "<group>"; };
+		04A470E52C40639C0096EACC /* GT-America-Condensed-Black-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Black-Italic.otf"; sourceTree = "<group>"; };
+		04A470E62C40639C0096EACC /* GT-America-Compressed-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Light.otf"; sourceTree = "<group>"; };
+		04A470E72C40639C0096EACC /* GT-America-Expanded-Thin-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Thin-Italic.otf"; sourceTree = "<group>"; };
+		04A470E82C40639C0096EACC /* GT-America-Extended-Bold-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Bold-Italic.otf"; sourceTree = "<group>"; };
+		04A470E92C40639C0096EACC /* GT-America-Condensed-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Light.otf"; sourceTree = "<group>"; };
+		04A470EA2C40639C0096EACC /* GT-America-Mono-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Black.otf"; sourceTree = "<group>"; };
+		04A470EB2C40639C0096EACC /* GT-America-Standard-Ultra-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Ultra-Light.otf"; sourceTree = "<group>"; };
+		04A470EC2C40639C0096EACC /* GT-America-Condensed-Bold-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Bold-Italic.otf"; sourceTree = "<group>"; };
+		04A470ED2C40639C0096EACC /* GT-America-Extended-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Bold.otf"; sourceTree = "<group>"; };
+		04A470EE2C40639C0096EACC /* GT-America-Standard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Light.otf"; sourceTree = "<group>"; };
+		04A470EF2C40639C0096EACC /* GT-America-Expanded-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Black.otf"; sourceTree = "<group>"; };
+		04A470F02C40639C0096EACC /* GT-America-Extended-Medium-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Medium-Italic.otf"; sourceTree = "<group>"; };
+		04A470F12C40639C0096EACC /* GT-America-Extended-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Thin.otf"; sourceTree = "<group>"; };
+		04A470F22C40639C0096EACC /* GT-America-Compressed-Medium-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Medium-Italic.otf"; sourceTree = "<group>"; };
+		04A470F32C40639C0096EACC /* GT-America-Compressed-Thin-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Thin-Italic.otf"; sourceTree = "<group>"; };
+		04A470F42C40639C0096EACC /* GT-America-Condensed-Ultra-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Ultra-Light-Italic.otf"; sourceTree = "<group>"; };
+		04A470F52C40639C0096EACC /* GT-America-Standard-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Light-Italic.otf"; sourceTree = "<group>"; };
+		04A470F62C40639C0096EACC /* GT-America-Mono-Ultra-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Ultra-Light-Italic.otf"; sourceTree = "<group>"; };
+		04A470F72C40639C0096EACC /* GT-America-Condensed-Medium-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Medium-Italic.otf"; sourceTree = "<group>"; };
+		04A470F82C40639C0096EACC /* GT-America-Condensed-Regular-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Regular-Italic.otf"; sourceTree = "<group>"; };
+		04A470F92C40639C0096EACC /* GT-America-Expanded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Medium.otf"; sourceTree = "<group>"; };
+		04A470FA2C40639C0096EACC /* GT-America-Mono-Regular-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Regular-Italic.otf"; sourceTree = "<group>"; };
+		04A470FB2C40639C0096EACC /* GT-America-Compressed-Black-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Black-Italic.otf"; sourceTree = "<group>"; };
+		04A470FC2C40639C0096EACC /* GT-America-Extended-Ultra-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Ultra-Light.otf"; sourceTree = "<group>"; };
+		04A470FD2C40639C0096EACC /* GT-America-Mono-Ultra-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Ultra-Light.otf"; sourceTree = "<group>"; };
+		04A470FE2C40639C0096EACC /* GT-America-Compressed-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Regular.otf"; sourceTree = "<group>"; };
+		04A470FF2C40639C0096EACC /* GT-America-Expanded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Bold.otf"; sourceTree = "<group>"; };
+		04A471002C40639C0096EACC /* GT-America-Standard-Bold-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Bold-Italic.otf"; sourceTree = "<group>"; };
+		04A471012C40639C0096EACC /* GT-America-Condensed-Ultra-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Ultra-Light.otf"; sourceTree = "<group>"; };
+		04A471022C40639C0096EACC /* GT-America-Compressed-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Black.otf"; sourceTree = "<group>"; };
+		04A471032C40639C0096EACC /* GT-America-Mono-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Medium.otf"; sourceTree = "<group>"; };
+		04A471042C40639C0096EACC /* GT-America-Expanded-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Regular.otf"; sourceTree = "<group>"; };
+		04A471052C40639C0096EACC /* GT-America-Condensed-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Black.otf"; sourceTree = "<group>"; };
+		04A471062C40639C0096EACC /* GT-America-Compressed-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Medium.otf"; sourceTree = "<group>"; };
+		04A471072C40639C0096EACC /* GT-America-Expanded-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Thin.otf"; sourceTree = "<group>"; };
+		04A471082C40639C0096EACC /* GT-America-Mono-Black-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Black-Italic.otf"; sourceTree = "<group>"; };
+		04A471092C40639C0096EACC /* GT-America-Extended-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Medium.otf"; sourceTree = "<group>"; };
+		04A4710A2C40639C0096EACC /* GT-America-Extended-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Light-Italic.otf"; sourceTree = "<group>"; };
+		04A4710B2C40639C0096EACC /* GT-America-Condensed-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Regular.otf"; sourceTree = "<group>"; };
+		04A4710C2C40639C0096EACC /* GT-America-Expanded-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Light.otf"; sourceTree = "<group>"; };
+		04A4710D2C40639C0096EACC /* GT-America-Standard-Medium-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Medium-Italic.otf"; sourceTree = "<group>"; };
+		04A4710E2C40639C0096EACC /* GT-America-Mono-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Light.otf"; sourceTree = "<group>"; };
+		04A4710F2C40639C0096EACC /* GT-America-Expanded-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Light-Italic.otf"; sourceTree = "<group>"; };
+		04A471102C40639C0096EACC /* GT-America-Standard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Black.otf"; sourceTree = "<group>"; };
+		04A471112C40639C0096EACC /* GT-America-Extended-Ultra-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Ultra-Light-Italic.otf"; sourceTree = "<group>"; };
+		04A471122C40639C0096EACC /* GT-America-Mono-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Bold.otf"; sourceTree = "<group>"; };
+		04A471132C40639C0096EACC /* GT-America-Condensed-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Condensed-Light-Italic.otf"; sourceTree = "<group>"; };
+		04A471142C40639C0096EACC /* GT-America-Standard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Regular.otf"; sourceTree = "<group>"; };
+		04A471152C40639C0096EACC /* GT-America-Extended-Regular-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Regular-Italic.otf"; sourceTree = "<group>"; };
+		04A471162C40639C0096EACC /* GT-America-Compressed-Ultra-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Compressed-Ultra-Light.otf"; sourceTree = "<group>"; };
+		04A471172C40639C0096EACC /* GT-America-Expanded-Regular-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Regular-Italic.otf"; sourceTree = "<group>"; };
+		04A471182C40639C0096EACC /* GT-America-Extended-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Extended-Light.otf"; sourceTree = "<group>"; };
+		04A471192C40639C0096EACC /* GT-America-Standard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Medium.otf"; sourceTree = "<group>"; };
+		04A4711A2C40639C0096EACC /* GT-America-Standard-Black-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Black-Italic.otf"; sourceTree = "<group>"; };
+		04A4711B2C40639C0096EACC /* GT-America-Standard-Regular-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Regular-Italic.otf"; sourceTree = "<group>"; };
+		04A4711C2C40639C0096EACC /* GT-America-Standard-Ultra-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Ultra-Light-Italic.otf"; sourceTree = "<group>"; };
+		04A4711D2C40639C0096EACC /* GT-America-Standard-Thin-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Standard-Thin-Italic.otf"; sourceTree = "<group>"; };
+		04A4711E2C40639C0096EACC /* GT-America-Mono-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Mono-Thin.otf"; sourceTree = "<group>"; };
+		04A4711F2C40639C0096EACC /* GT-America-Expanded-Ultra-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GT-America-Expanded-Ultra-Light.otf"; sourceTree = "<group>"; };
+		04DBC1F92BC4702600AD029D /* ChaminadeAppV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaminadeAppV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DBC1FC2BC4702600AD029D /* ChaminadeAppV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaminadeAppV2App.swift; sourceTree = "<group>"; };
+		04DBC1FE2BC4702600AD029D /* ContentTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTabView.swift; sourceTree = "<group>"; };
+		04DBC2022BC4702700AD029D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DBC2052BC4702700AD029D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04DC1CE12C3486EE00DF7D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04FAE9E22C46F9A8004C253A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A46EEF2C3D72A60096EACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A46EF42C3D72A60096EACC /* SwiftUI.framework in Frameworks */,
+				04A46EF32C3D72A60096EACC /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DBC1F62BC4702600AD029D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0405AF812C1D3A78004A0BA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0405AF822C1D3A78004A0BA4 /* WidgetKit.framework */,
+				0405AF842C1D3A78004A0BA4 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		042B01372C077BE000C512B9 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				042B01382C077BE000C512B9 /* Alert.swift */,
+				042B01392C077BE000C512B9 /* APError.swift */,
+			);
+			name = Alerts;
+			path = "../../OldMacXcode/Sean Allen Course 1/Appetizers/Appetizers/Utilities/Alerts";
+			sourceTree = "<group>";
+		};
+		0493DDEE2C3C709100807079 /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				042B01462C0E010D00C512B9 /* LunchMenuPDFView.swift */,
+				04452E6E2C29C4D900B0781A /* TodayView.swift */,
+			);
+			path = Unused;
+			sourceTree = "<group>";
+		};
+		04A46EF52C3D72A60096EACC /* BellScheduleWidget */ = {
+			isa = PBXGroup;
+			children = (
+				04A46EF62C3D72A60096EACC /* BellScheduleWidgetBundle.swift */,
+				04A46EFA2C3D72A60096EACC /* BellScheduleWidget.swift */,
+				04A46EFC2C3D72A70096EACC /* Assets.xcassets */,
+				04A46EFE2C3D72A70096EACC /* Info.plist */,
+			);
+			path = BellScheduleWidget;
+			sourceTree = "<group>";
+		};
+		04A4708A2C4063690096EACC /* Tiempos */ = {
+			isa = PBXGroup;
+			children = (
+				04A4708B2C4063690096EACC /* TiemposHeadline-Semibold.otf */,
+				04A4708C2C4063690096EACC /* TiemposText-Medium.otf */,
+				04A4708D2C4063690096EACC /* TiemposHeadline-SemiboldItalic.otf */,
+				04A4708E2C4063690096EACC /* TiemposFine-MediumItalic.otf */,
+				04A4708F2C4063690096EACC /* TiemposFine-BlackItalic.otf */,
+				04A470902C4063690096EACC /* TiemposFine-Medium.otf */,
+				04A470912C4063690096EACC /* TiemposFine-RegularItalic.otf */,
+				04A470922C4063690096EACC /* TiemposText-SemiboldItalic.otf */,
+				04A470932C4063690096EACC /* TiemposFine-Semibold.otf */,
+				04A470942C4063690096EACC /* TiemposHeadline-Black.otf */,
+				04A470952C4063690096EACC /* TiemposText-Bold.otf */,
+				04A470962C4063690096EACC /* TiemposFine-LightItalic.otf */,
+				04A470972C4063690096EACC /* TiemposFine-Bold.otf */,
+				04A470982C4063690096EACC /* TiemposFine-SemiboldItalic.otf */,
+				04A470992C4063690096EACC /* TiemposText-MediumItalic.otf */,
+				04A4709A2C4063690096EACC /* TiemposHeadline-RegularItalic.otf */,
+				04A4709B2C4063690096EACC /* TiemposFine-Light.otf */,
+				04A4709C2C4063690096EACC /* TiemposHeadline-MediumItalic.otf */,
+				04A4709D2C4063690096EACC /* TiemposHeadline-LightItalic.otf */,
+				04A4709E2C4063690096EACC /* TiemposText-Regular.otf */,
+				04A4709F2C4063690096EACC /* TiemposFine-BoldItalic.otf */,
+				04A470A02C4063690096EACC /* TiemposFine-Black.otf */,
+				04A470A12C4063690096EACC /* TiemposHeadline-Bold.otf */,
+				04A470A22C4063690096EACC /* TiemposText-Semibold.otf */,
+				04A470A32C4063690096EACC /* TiemposHeadline-Light.otf */,
+				04A470A42C4063690096EACC /* TiemposHeadline-BoldItalic.otf */,
+				04A470A52C4063690096EACC /* TiemposFine-Regular.otf */,
+				04A470A62C4063690096EACC /* TiemposText-BoldItalic.otf */,
+				04A470A72C4063690096EACC /* TiemposHeadline-Regular.otf */,
+				04A470A82C4063690096EACC /* TiemposHeadline-BlackItalic.otf */,
+				04A470A92C4063690096EACC /* TiemposText-RegularItalic.otf */,
+				04A470AA2C4063690096EACC /* TiemposHeadline-Medium.otf */,
+			);
+			name = Tiempos;
+			path = ../../../../../Assets/Fonts/Tiempos;
+			sourceTree = "<group>";
+		};
+		04A470CB2C40639C0096EACC /* GT-America */ = {
+			isa = PBXGroup;
+			children = (
+				04A470CC2C40639C0096EACC /* GT-America-Extended-Black.otf */,
+				04A470CD2C40639C0096EACC /* GT-America-Standard-Thin.otf */,
+				04A470CE2C40639C0096EACC /* GT-America-Extended-Regular.otf */,
+				04A470CF2C40639C0096EACC /* GT-America-Expanded-Medium-Italic.otf */,
+				04A470D02C40639C0096EACC /* GT-America-Expanded-Ultra-Light-Italic.otf */,
+				04A470D12C40639C0096EACC /* GT-America-Compressed-Light-Italic.otf */,
+				04A470D22C40639C0096EACC /* GT-America-Condensed-Bold.otf */,
+				04A470D32C40639C0096EACC /* GT-America-Compressed-Bold.otf */,
+				04A470D42C40639C0096EACC /* GT-America-Compressed-Bold-Italic.otf */,
+				04A470D52C40639C0096EACC /* GT-America-Condensed-Thin.otf */,
+				04A470D62C40639C0096EACC /* GT-America-Compressed-Thin.otf */,
+				04A470D72C40639C0096EACC /* GT-America-Condensed-Thin-Italic.otf */,
+				04A470D82C40639C0096EACC /* GT-America-Extended-Black-Italic.otf */,
+				04A470D92C40639C0096EACC /* GT-America-Mono-Light-Italic.otf */,
+				04A470DA2C40639C0096EACC /* GT-America-Compressed-Regular-Italic.otf */,
+				04A470DB2C40639C0096EACC /* GT-America-Expanded-Black-Italic.otf */,
+				04A470DC2C40639C0096EACC /* GT-America-Mono-Regular.otf */,
+				04A470DD2C40639C0096EACC /* GT-America-Compressed-Ultra-Light-Italic.otf */,
+				04A470DE2C40639C0096EACC /* GT-America-Mono-Thin-Italic.otf */,
+				04A470DF2C40639C0096EACC /* GT-America-Mono-Medium-Italic.otf */,
+				04A470E02C40639C0096EACC /* GT-America-Standard-Bold.otf */,
+				04A470E12C40639C0096EACC /* GT-America-Extended-Thin-Italic.otf */,
+				04A470E22C40639C0096EACC /* GT-America-Expanded-Bold-Italic.otf */,
+				04A470E32C40639C0096EACC /* GT-America-Condensed-Medium.otf */,
+				04A470E42C40639C0096EACC /* GT-America-Mono-Bold-Italic.otf */,
+				04A470E52C40639C0096EACC /* GT-America-Condensed-Black-Italic.otf */,
+				04A470E62C40639C0096EACC /* GT-America-Compressed-Light.otf */,
+				04A470E72C40639C0096EACC /* GT-America-Expanded-Thin-Italic.otf */,
+				04A470E82C40639C0096EACC /* GT-America-Extended-Bold-Italic.otf */,
+				04A470E92C40639C0096EACC /* GT-America-Condensed-Light.otf */,
+				04A470EA2C40639C0096EACC /* GT-America-Mono-Black.otf */,
+				04A470EB2C40639C0096EACC /* GT-America-Standard-Ultra-Light.otf */,
+				04A470EC2C40639C0096EACC /* GT-America-Condensed-Bold-Italic.otf */,
+				04A470ED2C40639C0096EACC /* GT-America-Extended-Bold.otf */,
+				04A470EE2C40639C0096EACC /* GT-America-Standard-Light.otf */,
+				04A470EF2C40639C0096EACC /* GT-America-Expanded-Black.otf */,
+				04A470F02C40639C0096EACC /* GT-America-Extended-Medium-Italic.otf */,
+				04A470F12C40639C0096EACC /* GT-America-Extended-Thin.otf */,
+				04A470F22C40639C0096EACC /* GT-America-Compressed-Medium-Italic.otf */,
+				04A470F32C40639C0096EACC /* GT-America-Compressed-Thin-Italic.otf */,
+				04A470F42C40639C0096EACC /* GT-America-Condensed-Ultra-Light-Italic.otf */,
+				04A470F52C40639C0096EACC /* GT-America-Standard-Light-Italic.otf */,
+				04A470F62C40639C0096EACC /* GT-America-Mono-Ultra-Light-Italic.otf */,
+				04A470F72C40639C0096EACC /* GT-America-Condensed-Medium-Italic.otf */,
+				04A470F82C40639C0096EACC /* GT-America-Condensed-Regular-Italic.otf */,
+				04A470F92C40639C0096EACC /* GT-America-Expanded-Medium.otf */,
+				04A470FA2C40639C0096EACC /* GT-America-Mono-Regular-Italic.otf */,
+				04A470FB2C40639C0096EACC /* GT-America-Compressed-Black-Italic.otf */,
+				04A470FC2C40639C0096EACC /* GT-America-Extended-Ultra-Light.otf */,
+				04A470FD2C40639C0096EACC /* GT-America-Mono-Ultra-Light.otf */,
+				04A470FE2C40639C0096EACC /* GT-America-Compressed-Regular.otf */,
+				04A470FF2C40639C0096EACC /* GT-America-Expanded-Bold.otf */,
+				04A471002C40639C0096EACC /* GT-America-Standard-Bold-Italic.otf */,
+				04A471012C40639C0096EACC /* GT-America-Condensed-Ultra-Light.otf */,
+				04A471022C40639C0096EACC /* GT-America-Compressed-Black.otf */,
+				04A471032C40639C0096EACC /* GT-America-Mono-Medium.otf */,
+				04A471042C40639C0096EACC /* GT-America-Expanded-Regular.otf */,
+				04A471052C40639C0096EACC /* GT-America-Condensed-Black.otf */,
+				04A471062C40639C0096EACC /* GT-America-Compressed-Medium.otf */,
+				04A471072C40639C0096EACC /* GT-America-Expanded-Thin.otf */,
+				04A471082C40639C0096EACC /* GT-America-Mono-Black-Italic.otf */,
+				04A471092C40639C0096EACC /* GT-America-Extended-Medium.otf */,
+				04A4710A2C40639C0096EACC /* GT-America-Extended-Light-Italic.otf */,
+				04A4710B2C40639C0096EACC /* GT-America-Condensed-Regular.otf */,
+				04A4710C2C40639C0096EACC /* GT-America-Expanded-Light.otf */,
+				04A4710D2C40639C0096EACC /* GT-America-Standard-Medium-Italic.otf */,
+				04A4710E2C40639C0096EACC /* GT-America-Mono-Light.otf */,
+				04A4710F2C40639C0096EACC /* GT-America-Expanded-Light-Italic.otf */,
+				04A471102C40639C0096EACC /* GT-America-Standard-Black.otf */,
+				04A471112C40639C0096EACC /* GT-America-Extended-Ultra-Light-Italic.otf */,
+				04A471122C40639C0096EACC /* GT-America-Mono-Bold.otf */,
+				04A471132C40639C0096EACC /* GT-America-Condensed-Light-Italic.otf */,
+				04A471142C40639C0096EACC /* GT-America-Standard-Regular.otf */,
+				04A471152C40639C0096EACC /* GT-America-Extended-Regular-Italic.otf */,
+				04A471162C40639C0096EACC /* GT-America-Compressed-Ultra-Light.otf */,
+				04A471172C40639C0096EACC /* GT-America-Expanded-Regular-Italic.otf */,
+				04A471182C40639C0096EACC /* GT-America-Extended-Light.otf */,
+				04A471192C40639C0096EACC /* GT-America-Standard-Medium.otf */,
+				04A4711A2C40639C0096EACC /* GT-America-Standard-Black-Italic.otf */,
+				04A4711B2C40639C0096EACC /* GT-America-Standard-Regular-Italic.otf */,
+				04A4711C2C40639C0096EACC /* GT-America-Standard-Ultra-Light-Italic.otf */,
+				04A4711D2C40639C0096EACC /* GT-America-Standard-Thin-Italic.otf */,
+				04A4711E2C40639C0096EACC /* GT-America-Mono-Thin.otf */,
+				04A4711F2C40639C0096EACC /* GT-America-Expanded-Ultra-Light.otf */,
+			);
+			name = "GT-America";
+			path = "../../../../../Assets/Fonts/GT-America";
+			sourceTree = "<group>";
+		};
+		04DBC1F02BC4702600AD029D = {
+			isa = PBXGroup;
+			children = (
+				04DBC1FB2BC4702600AD029D /* ChaminadeAppV2 */,
+				0471B4BA2C46B2E400A90216 /* BellScheduleWidgetExtension.entitlements */,
+				04A46EF52C3D72A60096EACC /* BellScheduleWidget */,
+				0405AF812C1D3A78004A0BA4 /* Frameworks */,
+				04DBC1FA2BC4702600AD029D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DBC1FA2BC4702600AD029D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DBC1F92BC4702600AD029D /* ChaminadeAppV2.app */,
+				04A46EF22C3D72A60096EACC /* BellScheduleWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DBC1FB2BC4702600AD029D /* ChaminadeAppV2 */ = {
+			isa = PBXGroup;
+			children = (
+				04A46F062C3D8B8A0096EACC /* ChaminadeAppV2.entitlements */,
+				04DC1CE12C3486EE00DF7D65 /* Info.plist */,
+				042B01372C077BE000C512B9 /* Alerts */,
+				04DBC1FC2BC4702600AD029D /* ChaminadeAppV2App.swift */,
+				04DBC1FE2BC4702600AD029D /* ContentTabView.swift */,
+				04FAE9E22C46F9A8004C253A /* SplashView.swift */,
+				04A3A4C32BFB957C007BB31C /* HomeView.swift */,
+				042A9A5A2C481074007A9179 /* SocialLinksView.swift */,
+				04E79F132C075AC900E512E8 /* Resources */,
+				04E79F122C075AA900E512E8 /* BellSchedule */,
+				04E79F112C075A9F00E512E8 /* EventCalendar */,
+				04E79F142C075B1400E512E8 /* Settings */,
+				04DBC2022BC4702700AD029D /* Assets.xcassets */,
+				0493DDEE2C3C709100807079 /* Unused */,
+				04DC1CE22C34889600DF7D65 /* Fonts */,
+				04DBC2042BC4702700AD029D /* Preview Content */,
+			);
+			path = ChaminadeAppV2;
+			sourceTree = "<group>";
+		};
+		04DBC2042BC4702700AD029D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04DBC2052BC4702700AD029D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04DC1CE22C34889600DF7D65 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04A470CB2C40639C0096EACC /* GT-America */,
+				04A4708A2C4063690096EACC /* Tiempos */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		04E79F112C075A9F00E512E8 /* EventCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				042AE10A2BFBCC6D00E36BF9 /* CalendarView.swift */,
+				042B013F2C078E9600C512B9 /* DateFormatterExtensions.swift */,
+				042B01402C078E9600C512B9 /* EventCal.swift */,
+				042B013C2C078E9600C512B9 /* EventCalModel.swift */,
+				042B013D2C078E9600C512B9 /* GetCal.swift */,
+				042B013E2C078E9600C512B9 /* RowView.swift */,
+			);
+			path = EventCalendar;
+			sourceTree = "<group>";
+		};
+		04E79F122C075AA900E512E8 /* BellSchedule */ = {
+			isa = PBXGroup;
+			children = (
+				045C083D2C0F8EBB001C62F9 /* BellScheduleView.swift */,
+				045C083F2C0F8ED6001C62F9 /* PeriodFunctions.swift */,
+				0493DDEC2C3C56BB00807079 /* ScheduleStorage.swift */,
+			);
+			path = BellSchedule;
+			sourceTree = "<group>";
+		};
+		04E79F132C075AC900E512E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				042AE1142BFCE6EA00E36BF9 /* SafariLinkButton.swift */,
+				042AE10C2BFCC8D800E36BF9 /* ResourcesView.swift */,
+				042AE1122BFCDF6C00E36BF9 /* SafariView.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04E79F142C075B1400E512E8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				042AE10E2BFCD50B00E36BF9 /* SettingsView.swift */,
+				0405AF7A2C18DC82004A0BA4 /* BellScheduleInputView.swift */,
+				042A9A582C4806AB007A9179 /* DeveloperView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A46EF12C3D72A60096EACC /* BellScheduleWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A46F022C3D72A70096EACC /* Build configuration list for PBXNativeTarget "BellScheduleWidgetExtension" */;
+			buildPhases = (
+				04A46EEE2C3D72A60096EACC /* Sources */,
+				04A46EEF2C3D72A60096EACC /* Frameworks */,
+				04A46EF02C3D72A60096EACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BellScheduleWidgetExtension;
+			productName = BellScheduleWidgetExtension;
+			productReference = 04A46EF22C3D72A60096EACC /* BellScheduleWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		04DBC1F82BC4702600AD029D /* ChaminadeAppV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DBC21F2BC4702700AD029D /* Build configuration list for PBXNativeTarget "ChaminadeAppV2" */;
+			buildPhases = (
+				04DBC1F52BC4702600AD029D /* Sources */,
+				04DBC1F62BC4702600AD029D /* Frameworks */,
+				04DBC1F72BC4702600AD029D /* Resources */,
+				0405AF982C1D3A79004A0BA4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A46F002C3D72A70096EACC /* PBXTargetDependency */,
+			);
+			name = ChaminadeAppV2;
+			packageProductDependencies = (
+			);
+			productName = ChaminadeAppV2;
+			productReference = 04DBC1F92BC4702600AD029D /* ChaminadeAppV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DBC1F12BC4702600AD029D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					04A46EF12C3D72A60096EACC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					04DBC1F82BC4702600AD029D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 04DBC1F42BC4702600AD029D /* Build configuration list for PBXProject "ChaminadeAppV2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04DBC1F02BC4702600AD029D;
+			packageReferences = (
+			);
+			productRefGroup = 04DBC1FA2BC4702600AD029D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DBC1F82BC4702600AD029D /* ChaminadeAppV2 */,
+				04A46EF12C3D72A60096EACC /* BellScheduleWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A46EF02C3D72A60096EACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A46EFD2C3D72A70096EACC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DBC1F72BC4702600AD029D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A470B72C4063690096EACC /* TiemposFine-Bold.otf in Resources */,
+				04A4716C2C40639D0096EACC /* GT-America-Extended-Light.otf in Resources */,
+				04A471532C40639D0096EACC /* GT-America-Expanded-Bold.otf in Resources */,
+				04A470C02C4063690096EACC /* TiemposFine-Black.otf in Resources */,
+				04A4713F2C40639D0096EACC /* GT-America-Standard-Ultra-Light.otf in Resources */,
+				04A470CA2C4063690096EACC /* TiemposHeadline-Medium.otf in Resources */,
+				04A471602C40639D0096EACC /* GT-America-Expanded-Light.otf in Resources */,
+				04A471652C40639D0096EACC /* GT-America-Extended-Ultra-Light-Italic.otf in Resources */,
+				04A471432C40639D0096EACC /* GT-America-Expanded-Black.otf in Resources */,
+				04A470BF2C4063690096EACC /* TiemposFine-BoldItalic.otf in Resources */,
+				04A471312C40639C0096EACC /* GT-America-Compressed-Ultra-Light-Italic.otf in Resources */,
+				04A471402C40639D0096EACC /* GT-America-Condensed-Bold-Italic.otf in Resources */,
+				04A471642C40639D0096EACC /* GT-America-Standard-Black.otf in Resources */,
+				04A471242C40639C0096EACC /* GT-America-Expanded-Ultra-Light-Italic.otf in Resources */,
+				04A471522C40639D0096EACC /* GT-America-Compressed-Regular.otf in Resources */,
+				04A471472C40639D0096EACC /* GT-America-Compressed-Thin-Italic.otf in Resources */,
+				04A470B32C4063690096EACC /* TiemposFine-Semibold.otf in Resources */,
+				04A470AE2C4063690096EACC /* TiemposFine-MediumItalic.otf in Resources */,
+				04A470C32C4063690096EACC /* TiemposHeadline-Light.otf in Resources */,
+				04A470BB2C4063690096EACC /* TiemposFine-Light.otf in Resources */,
+				04A470B52C4063690096EACC /* TiemposText-Bold.otf in Resources */,
+				04A4713E2C40639D0096EACC /* GT-America-Mono-Black.otf in Resources */,
+				04A471232C40639C0096EACC /* GT-America-Expanded-Medium-Italic.otf in Resources */,
+				04A471462C40639D0096EACC /* GT-America-Compressed-Medium-Italic.otf in Resources */,
+				04A471272C40639C0096EACC /* GT-America-Compressed-Bold.otf in Resources */,
+				04A4716F2C40639D0096EACC /* GT-America-Standard-Regular-Italic.otf in Resources */,
+				04A4715A2C40639D0096EACC /* GT-America-Compressed-Medium.otf in Resources */,
+				04A4716A2C40639D0096EACC /* GT-America-Compressed-Ultra-Light.otf in Resources */,
+				04A4714D2C40639D0096EACC /* GT-America-Expanded-Medium.otf in Resources */,
+				04A471502C40639D0096EACC /* GT-America-Extended-Ultra-Light.otf in Resources */,
+				04A4715C2C40639D0096EACC /* GT-America-Mono-Black-Italic.otf in Resources */,
+				04A471422C40639D0096EACC /* GT-America-Standard-Light.otf in Resources */,
+				04A470AF2C4063690096EACC /* TiemposFine-BlackItalic.otf in Resources */,
+				04A4716E2C40639D0096EACC /* GT-America-Standard-Black-Italic.otf in Resources */,
+				04A470B62C4063690096EACC /* TiemposFine-LightItalic.otf in Resources */,
+				04A4713B2C40639D0096EACC /* GT-America-Expanded-Thin-Italic.otf in Resources */,
+				04A471442C40639D0096EACC /* GT-America-Extended-Medium-Italic.otf in Resources */,
+				04A471712C40639D0096EACC /* GT-America-Standard-Thin-Italic.otf in Resources */,
+				04A4712B2C40639C0096EACC /* GT-America-Condensed-Thin-Italic.otf in Resources */,
+				04A471212C40639C0096EACC /* GT-America-Standard-Thin.otf in Resources */,
+				04A471202C40639C0096EACC /* GT-America-Extended-Black.otf in Resources */,
+				04A4712E2C40639C0096EACC /* GT-America-Compressed-Regular-Italic.otf in Resources */,
+				04A471622C40639D0096EACC /* GT-America-Mono-Light.otf in Resources */,
+				04A470C92C4063690096EACC /* TiemposText-RegularItalic.otf in Resources */,
+				04A471302C40639C0096EACC /* GT-America-Mono-Regular.otf in Resources */,
+				04A4714E2C40639D0096EACC /* GT-America-Mono-Regular-Italic.otf in Resources */,
+				04DBC2062BC4702700AD029D /* Preview Assets.xcassets in Resources */,
+				04A4716B2C40639D0096EACC /* GT-America-Expanded-Regular-Italic.otf in Resources */,
+				04A470AD2C4063690096EACC /* TiemposHeadline-SemiboldItalic.otf in Resources */,
+				04A4715E2C40639D0096EACC /* GT-America-Extended-Light-Italic.otf in Resources */,
+				04A470B42C4063690096EACC /* TiemposHeadline-Black.otf in Resources */,
+				04A4713A2C40639D0096EACC /* GT-America-Compressed-Light.otf in Resources */,
+				04A471572C40639D0096EACC /* GT-America-Mono-Medium.otf in Resources */,
+				04A471662C40639D0096EACC /* GT-America-Mono-Bold.otf in Resources */,
+				04A471412C40639D0096EACC /* GT-America-Extended-Bold.otf in Resources */,
+				04A471492C40639D0096EACC /* GT-America-Standard-Light-Italic.otf in Resources */,
+				04A471322C40639D0096EACC /* GT-America-Mono-Thin-Italic.otf in Resources */,
+				04A470B12C4063690096EACC /* TiemposFine-RegularItalic.otf in Resources */,
+				04A471672C40639D0096EACC /* GT-America-Condensed-Light-Italic.otf in Resources */,
+				04A471452C40639D0096EACC /* GT-America-Extended-Thin.otf in Resources */,
+				04A471592C40639D0096EACC /* GT-America-Condensed-Black.otf in Resources */,
+				04A470BE2C4063690096EACC /* TiemposText-Regular.otf in Resources */,
+				04A471392C40639D0096EACC /* GT-America-Condensed-Black-Italic.otf in Resources */,
+				04A470B82C4063690096EACC /* TiemposFine-SemiboldItalic.otf in Resources */,
+				04A471372C40639D0096EACC /* GT-America-Condensed-Medium.otf in Resources */,
+				04A471482C40639D0096EACC /* GT-America-Condensed-Ultra-Light-Italic.otf in Resources */,
+				04A471732C40639D0096EACC /* GT-America-Expanded-Ultra-Light.otf in Resources */,
+				04A470C42C4063690096EACC /* TiemposHeadline-BoldItalic.otf in Resources */,
+				04A4712F2C40639C0096EACC /* GT-America-Expanded-Black-Italic.otf in Resources */,
+				04A4714A2C40639D0096EACC /* GT-America-Mono-Ultra-Light-Italic.otf in Resources */,
+				04A471222C40639C0096EACC /* GT-America-Extended-Regular.otf in Resources */,
+				04A471332C40639D0096EACC /* GT-America-Mono-Medium-Italic.otf in Resources */,
+				04A470C82C4063690096EACC /* TiemposHeadline-BlackItalic.otf in Resources */,
+				04A471552C40639D0096EACC /* GT-America-Condensed-Ultra-Light.otf in Resources */,
+				04A4713C2C40639D0096EACC /* GT-America-Extended-Bold-Italic.otf in Resources */,
+				04A470BC2C4063690096EACC /* TiemposHeadline-MediumItalic.otf in Resources */,
+				04A470BD2C4063690096EACC /* TiemposHeadline-LightItalic.otf in Resources */,
+				04A471682C40639D0096EACC /* GT-America-Standard-Regular.otf in Resources */,
+				04A470AC2C4063690096EACC /* TiemposText-Medium.otf in Resources */,
+				04A4715B2C40639D0096EACC /* GT-America-Expanded-Thin.otf in Resources */,
+				04A471722C40639D0096EACC /* GT-America-Mono-Thin.otf in Resources */,
+				04A4715F2C40639D0096EACC /* GT-America-Condensed-Regular.otf in Resources */,
+				04A471632C40639D0096EACC /* GT-America-Expanded-Light-Italic.otf in Resources */,
+				04A4714F2C40639D0096EACC /* GT-America-Compressed-Black-Italic.otf in Resources */,
+				04A471612C40639D0096EACC /* GT-America-Standard-Medium-Italic.otf in Resources */,
+				04A470AB2C4063690096EACC /* TiemposHeadline-Semibold.otf in Resources */,
+				04A4712A2C40639C0096EACC /* GT-America-Compressed-Thin.otf in Resources */,
+				04A471292C40639C0096EACC /* GT-America-Condensed-Thin.otf in Resources */,
+				04A471542C40639D0096EACC /* GT-America-Standard-Bold-Italic.otf in Resources */,
+				04A470C62C4063690096EACC /* TiemposText-BoldItalic.otf in Resources */,
+				04A470C52C4063690096EACC /* TiemposFine-Regular.otf in Resources */,
+				04A471582C40639D0096EACC /* GT-America-Expanded-Regular.otf in Resources */,
+				04A471342C40639D0096EACC /* GT-America-Standard-Bold.otf in Resources */,
+				04A4714C2C40639D0096EACC /* GT-America-Condensed-Regular-Italic.otf in Resources */,
+				04A471282C40639C0096EACC /* GT-America-Compressed-Bold-Italic.otf in Resources */,
+				04A4712C2C40639C0096EACC /* GT-America-Extended-Black-Italic.otf in Resources */,
+				04A4714B2C40639D0096EACC /* GT-America-Condensed-Medium-Italic.otf in Resources */,
+				04A470C72C4063690096EACC /* TiemposHeadline-Regular.otf in Resources */,
+				04A471382C40639D0096EACC /* GT-America-Mono-Bold-Italic.otf in Resources */,
+				04A471692C40639D0096EACC /* GT-America-Extended-Regular-Italic.otf in Resources */,
+				04A470B22C4063690096EACC /* TiemposText-SemiboldItalic.otf in Resources */,
+				04A4713D2C40639D0096EACC /* GT-America-Condensed-Light.otf in Resources */,
+				04A471512C40639D0096EACC /* GT-America-Mono-Ultra-Light.otf in Resources */,
+				04A471252C40639C0096EACC /* GT-America-Compressed-Light-Italic.otf in Resources */,
+				04A470B02C4063690096EACC /* TiemposFine-Medium.otf in Resources */,
+				04DBC2032BC4702700AD029D /* Assets.xcassets in Resources */,
+				04A471562C40639D0096EACC /* GT-America-Compressed-Black.otf in Resources */,
+				04A471262C40639C0096EACC /* GT-America-Condensed-Bold.otf in Resources */,
+				04A470BA2C4063690096EACC /* TiemposHeadline-RegularItalic.otf in Resources */,
+				04A470C12C4063690096EACC /* TiemposHeadline-Bold.otf in Resources */,
+				04A470B92C4063690096EACC /* TiemposText-MediumItalic.otf in Resources */,
+				04A471702C40639D0096EACC /* GT-America-Standard-Ultra-Light-Italic.otf in Resources */,
+				04A4715D2C40639D0096EACC /* GT-America-Extended-Medium.otf in Resources */,
+				04A4716D2C40639D0096EACC /* GT-America-Standard-Medium.otf in Resources */,
+				04A471352C40639D0096EACC /* GT-America-Extended-Thin-Italic.otf in Resources */,
+				04A471362C40639D0096EACC /* GT-America-Expanded-Bold-Italic.otf in Resources */,
+				04A4712D2C40639C0096EACC /* GT-America-Mono-Light-Italic.otf in Resources */,
+				04A470C22C4063690096EACC /* TiemposText-Semibold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A46EEE2C3D72A60096EACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A46EFB2C3D72A60096EACC /* BellScheduleWidget.swift in Sources */,
+				04A46F342C3DC4400096EACC /* PeriodFunctions.swift in Sources */,
+				04A46F362C3DC45F0096EACC /* EventCalModel.swift in Sources */,
+				04A46F372C3DC4650096EACC /* EventCal.swift in Sources */,
+				04A46EF72C3D72A60096EACC /* BellScheduleWidgetBundle.swift in Sources */,
+				04A46F352C3DC4570096EACC /* GetCal.swift in Sources */,
+				04A46F382C3DC46B0096EACC /* DateFormatterExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DBC1F52BC4702600AD029D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045C08402C0F8EF4001C62F9 /* BellScheduleView.swift in Sources */,
+				0405AF7B2C18DC82004A0BA4 /* BellScheduleInputView.swift in Sources */,
+				04A3A4C42BFB957C007BB31C /* HomeView.swift in Sources */,
+				042AE1152BFCE6EA00E36BF9 /* SafariLinkButton.swift in Sources */,
+				04DBC1FF2BC4702600AD029D /* ContentTabView.swift in Sources */,
+				042B01472C0E010D00C512B9 /* LunchMenuPDFView.swift in Sources */,
+				042B013A2C077BE800C512B9 /* Alert.swift in Sources */,
+				04FAE9E32C46F9A8004C253A /* SplashView.swift in Sources */,
+				042AE10B2BFBCC6D00E36BF9 /* CalendarView.swift in Sources */,
+				042B01422C078E9600C512B9 /* GetCal.swift in Sources */,
+				042AE10F2BFCD50B00E36BF9 /* SettingsView.swift in Sources */,
+				04452E6F2C29C4D900B0781A /* TodayView.swift in Sources */,
+				0493DDED2C3C56BC00807079 /* ScheduleStorage.swift in Sources */,
+				042B01432C078E9600C512B9 /* RowView.swift in Sources */,
+				042B01442C078E9600C512B9 /* DateFormatterExtensions.swift in Sources */,
+				042A9A5B2C481074007A9179 /* SocialLinksView.swift in Sources */,
+				04DBC1FD2BC4702600AD029D /* ChaminadeAppV2App.swift in Sources */,
+				042B013B2C077BEE00C512B9 /* APError.swift in Sources */,
+				042B01412C078E9600C512B9 /* EventCalModel.swift in Sources */,
+				045C08412C0F8EF8001C62F9 /* PeriodFunctions.swift in Sources */,
+				042AE10D2BFCC8D800E36BF9 /* ResourcesView.swift in Sources */,
+				042B01452C078E9600C512B9 /* EventCal.swift in Sources */,
+				042A9A592C4806AB007A9179 /* DeveloperView.swift in Sources */,
+				042AE1132BFCDF6C00E36BF9 /* SafariView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A46F002C3D72A70096EACC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A46EF12C3D72A60096EACC /* BellScheduleWidgetExtension */;
+			targetProxy = 04A46EFF2C3D72A70096EACC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A46F032C3D72A70096EACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = BellScheduleWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6GGZ83J3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BellScheduleWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BellScheduleWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaminade.chaminadehighschool.BellScheduleWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A46F042C3D72A70096EACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = BellScheduleWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6GGZ83J3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BellScheduleWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BellScheduleWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaminade.chaminadehighschool.BellScheduleWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04DBC21D2BC4702700AD029D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 2.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04DBC21E2BC4702700AD029D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 2.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DBC2202BC4702700AD029D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChaminadeAppV2/ChaminadeAppV2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"ChaminadeAppV2/Preview Content\"";
+				DEVELOPMENT_TEAM = V6GGZ83J3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChaminadeAppV2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chaminade;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaminade.chaminadehighschool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04DBC2212BC4702700AD029D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChaminadeAppV2/ChaminadeAppV2.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"ChaminadeAppV2/Preview Content\"";
+				DEVELOPMENT_TEAM = V6GGZ83J3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChaminadeAppV2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Chaminade;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaminade.chaminadehighschool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A46F022C3D72A70096EACC /* Build configuration list for PBXNativeTarget "BellScheduleWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A46F032C3D72A70096EACC /* Debug */,
+				04A46F042C3D72A70096EACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DBC1F42BC4702600AD029D /* Build configuration list for PBXProject "ChaminadeAppV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DBC21D2BC4702700AD029D /* Debug */,
+				04DBC21E2BC4702700AD029D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DBC21F2BC4702700AD029D /* Build configuration list for PBXNativeTarget "ChaminadeAppV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DBC2202BC4702700AD029D /* Debug */,
+				04DBC2212BC4702700AD029D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DBC1F12BC4702600AD029D /* Project object */;
+}
